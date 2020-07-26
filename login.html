@@ -1,86 +1,30 @@
-<html
+<!DOCTYPE html>
+<html>
 <head>
-<title>BOOK KART</title>
-<link rel="stylesheet" type="text/css" href="bookkart.css">
-
-</HEAD>
-
-   <h1>Sign Up</h1> 
-
-   <form>
-
-   <Lable for="first"> First Name: </Lable>
-<input name="first" id="first" type="text" placeholder="eg:sam" required >
-
-   <Lable for="Last"> Last Name: </Lable>
-<input  name="last" id="Last" type="text" placeholder="eg:sung" required>
-   
-<div>
-	
-<label>Gender:
-
-	<select> categories:
-   	<option>male</option>
-    <option>female</option>
-    <option>other</option>	
-   </select>
-
-</label>	
-   
-       
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="bookcart.css">
+  <title>Sign up</title>
+</head>
+<body>
+  <div align="center" id="login-box">
+  <div class="card" style="width: 20rem;">
+  <div class="card-body">
+    <h3 class="card-title"><strong>Sign Up</strong></h5>
+    <form>
+<input name="first" type="text" placeholder="First name" required >
+<input  name="last" id="Last" type="text" placeholder="Last name" required>
+          <input name="Email"  type="email" placeholder="E-mail" required > 
+          <input   id="passcode" name="password"  type="password"  pattern=".{8,10}" required title="Password should be between 8 to 10 characters" placeholder="Password">
+          <input name="Mobile Number"  maxlength="10" type="tel" placeholder="Mobile number" required >
+          <input name="Address"  type="text" placeholder="Address" required >
+          <input id="Date Of Birth" name="MONTH" type="Date" placeholder="Date" required>
+    <p><input type="checkbox" name="Terms And Condition">  
+    I Agree <a href="#">Terms And Condition</a>
+    </p>
 </div>
-
-<div>
-      <Lable > Email: 
-          <input name="Email"  type="mail" placeholder="eg:samsung@gmail.com" required >
-      </Lable>
-
-      <Lable for="passcode" > Password: 
-          <input   id="passcode" name="password"  type="password"  pattern=".{8,10}" required title=" Password must be between 8 to 10 characters">
-
-      </Lable>    
+    <a href="#" class="btn btn-primary">Sign Up</a>
+  </div>
 </div>
-
-<div>
-  <Lable for="Number" > Mobile Number: 
-          <input id="Number"  name="Mobile Number"  maxlength="10" type="Mobile Number" placeholder="82xxxxxxxx" required >
-      </Lable>	
-
-</div>
-
-<div>
-
-  <Lable > Address: 
-          <input name="Address"  type="Address" placeholder="Hno.67/B Vaishali Nagar" required >
-      </Lable>
-
-	
-</div>
-
-
-<div>   
-    <LABEL for:"Date Of Birth "> Date Of Birth: 
-         
-          <input id="Date Of Birth" name="MONTH" type="Date" placeholder="01-01-2020" required>
-         	
-    </LABEL>
-</div>   
-
-<div>    
-    <label for="Terms And Condition" >I Agree This Terms And Condition
-         
-    	<input id="Terms And Condition " type="checkbox" name="Terms And Condition">
-	
-    </label>
-</div>
-
-
-
-
-    <input type="SUBMIT">
-  
-  </form>
-
-
-
- </html>
+</body>
+</html>
