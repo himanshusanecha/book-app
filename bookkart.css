@@ -106,7 +106,3 @@ input[type="email"]:focus{
 input[type="password"]:focus{
   outline: 0;
 }
-img{
-  width: 600px;
-  height: 545px;
-}
