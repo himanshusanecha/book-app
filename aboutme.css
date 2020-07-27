@@ -1,0 +1,19 @@
+body{
+   
+    background: url(dj.png);
+    background-repeat: no-repeat;
+
+
+}
+
+p{
+  font-size: 30px;
+	color: rgb(0, 30, 105);
+}
+
+h1{
+	
+	color: rgb(227, 255, 252);
+	border: 2px solid rgba(0, 0, 0, .8);
+	background: rgb(0, 0, 0);
+}
