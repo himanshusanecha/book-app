@@ -1,0 +1,52 @@
+#iconss{
+	display: inline;	
+}
+.icn{
+	margin-left: 16px;
+}
+.firstsec{
+	margin-top: 12%;
+	padding: 4%;
+	text-align: center;
+}
+.sectionHeading{
+	font-weight: 300;
+	color: #3f72af;
+}
+.sectionPara{
+	padding: 3%;
+	font-size: 1.5rem;
+}
+.divhead{
+	font-size: 2rem;
+	font-weight: 500;
+}
+.ftdiv{
+	display: flex;
+	flex-direction: column;
+}
+h2{
+	margin: 1%;
+}
+.foot{
+	margin: 2%;
+	padding: 4%;
+	background-color: #3f72af;
+	color: #ffffff;
+}
+.ftlink{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 2%;
+	margin: 1%;
+}
+#avail{
+	border-right: solid 1px black;
+	margin: 3px;
+}
+@media screen and (max-width:500px)
+{
+	#avail{
+		display:none;
+	}
+}
